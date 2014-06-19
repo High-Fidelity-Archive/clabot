@@ -26,7 +26,7 @@
     "node": ">= 0.8.0"
   },
   "scripts": {
-    "install": "./node_modules/grunt-cli/bin/grunt coffee"
+    "install": "./node_modules/grunt-cli/bin/grunt coffee",
     "test": "./node_modules/grunt-cli/bin/grunt test",
     "prepublish": "./node_modules/grunt-cli/bin/grunt coffee"
   },
