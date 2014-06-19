@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/clabot/clabot.git"
+    "url": "git://github.com/lieutdan13/clabot.git"
   },
   "bugs": {
-    "url": "https://github.com/clabot/clabot/issues"
+    "url": "https://github.com/lieutdan13/clabot/issues"
   },
   "licenses": [
     {
