@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/clabot/clabot.git"
+    "url": "git://github.com/highfidelity/clabot.git"
   },
   "bugs": {
-    "url": "https://github.com/clabot/clabot/issues"
+    "url": "https://github.com/highfidelity/clabot/issues"
   },
   "licenses": [
     {
@@ -26,19 +26,20 @@
     "node": ">= 0.8.0"
   },
   "scripts": {
+    "install": "./node_modules/grunt-cli/bin/grunt coffee",
     "test": "./node_modules/grunt-cli/bin/grunt test",
     "prepublish": "./node_modules/grunt-cli/bin/grunt coffee"
   },
   "dependencies": {
     "github": "~0.1.13",
+    "grunt": "~0.4.2",
+    "grunt-cli": "~0.1.13",
+    "grunt-contrib-coffee": "~0.10.0",
     "lodash": "~2.4.1",
     "express": "~3.4.8",
     "qs": "~0.6.6"
   },
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "grunt-cli": "~0.1.13",
-    "grunt-contrib-coffee": "~0.10.0",
     "grunt-contrib-nodeunit": "~0.3.0",
     "grunt-contrib-watch": "~0.5.3"
   },

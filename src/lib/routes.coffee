@@ -9,7 +9,7 @@ answerPullRequest = require './answerPullRequest'
 
 exports.notify = (req, res) ->
   options = req.clabotOptions
-  payload = JSON.parse req.body.payload
+  payload = JSON.parse req.rawBody
 
   repo   = payload.repository.name
   user   = payload.repository.owner.login
